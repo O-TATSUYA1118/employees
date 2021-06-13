@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<!-- 共通レイアウト -->
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+  <head>
+    <meta charset="utf-8" />
+    <title layout:title-pattern="$DECORATOR_TITLE - $CONTENT_TITLE">system</title>
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+  </head>
+  <body>
+    <div layout:fragment="content"></div>
+  </body>
+</html>
